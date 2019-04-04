@@ -1,6 +1,12 @@
  README for FASTSOCKET
 ========================================================================
 
+高性能的内核 Socket 实现 Fastsocket
+
+　　Fastsocket 是一个高扩展性的 Socket 以及 Linux 内核的底层网络实现。可以在多核机器上提供极好的性能，此外使用和维护还非常简单。目前该项目已经在新浪的生产环境中使用。该项目由清华大学和新浪网联合组成的 Fastos 团队开发，该团队的使命是提升 Linux 内核的效率。Fastsocket 目前已经使用在新浪微博的生产环境上，主要用于提供负载均衡服务的 HAProxy，线上实际性能提升一倍，从2014年3月份稳定运行至今，预计2014年底完成负载均衡全部集群的 Fastsocket 升级。Fastsocket 完全兼容 BSD Socket API，现有各类基于 Socket 的网络应用可以直接使用 Fastsockt。 目前经过兼容测试的常用服务软件有：HAProxy、Nginx、Lighttpd、Redis 和 Memcached。
+
+
+
 ## TABLE OF CONTENT ##
 * [Paper](#paper)
 * [Introduction](#introduction)
